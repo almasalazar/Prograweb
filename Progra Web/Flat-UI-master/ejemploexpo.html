@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function myFunction(){
+                 
+                var age;
+                age=document.getElementById("age").value;
+                if(age<5){
+                    alert ("Eres infantil")
+                }
+                else if (age<17){ 
+                    alert("Eres adolescente")
+                } 
+                else if (age>=18){
+                        alert("Eres viejito :)")
+                    }
+                    else if (age>50){
+                        alert("Eres viejito :)")
+                    }
+                     
+                }
+            
+        </script>
+    </head>
+    <body>
+    <center>
+        <h2>Validar edad</h2>
+        <label>Edad</label>:<input id="age" value=""/>
+        <button onclick="myFunction()">Validar</button>
+    </center>
+    </body>
+</html>

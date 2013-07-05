@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/micss.css">
+        <title>Registro de Usuarios</title>
+        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+
+        <!-- Loading Flat UI -->
+        <link href="../css/flat-ui.css" rel="stylesheet">
+        <link href="../css/micss.css" rel="stylesheet">
+    </head>
+    <body>  
+        <div class="span3 demo-pager">
+            <h1>Usuarios</h1> 
+            <form action="" method="post">
+                <ul class="pager">
+                    <li class="previous">
+                        <a href="index.html">
+                            <i class="fui-arrow-left"></i>
+                            <span>Menu</span>
+                        </a>
+                    </li>
+                </ul> <!-- /pager -->
+        </div>
+        <br>
+        <div class="container-fluid">
+            <div class="row-fluid">
+
+                <div class="span6">
+
+                    <!--Sidebar content-->
+                </div>
+                <div class="span6">
+                    <label for="apellido_paterno">Apellido Paterno</label>
+                    <input id="apellido_paterno" class="cajastexto"
+                           type="text" name="apellido_paterno"
+                           value="" required="required"/> 
+
+
+                    <label for="apellido_materno">Apellido Materno</label>
+                    <input id="apellido_materno" class="cajastexto"
+                           type="text" name="apellido_materno"
+                           value=""  required="required"/>
+
+                    <label for= "nombre">Nombre</label>
+                    <input id="nombre" 
+                           type="text" name="nombre" class="cajastexto"
+                           value=""  required="required"/>              
+                    
+                     <div class="span12">
+                    <h5 class="demo-panel-title">Genero</h5>
+                    <label class="radio">
+                        <input type="radio" name="genero" id="optionsRadios1" value="Femenino" data-toggle="radio">
+                        Femenino
+                    </label>
+                    
+                    <label class="radio">
+                        <input type="radio" name="genero" id="optionsRadios1" value="Masculino" data-toggle="radio">
+                        Masculino
+                    </label>
+                </div> <!-- /radios span3 -->
+                <br>
+                <br>  
+                <br> 
+                    <label for= "edad">Edad</label>
+                    <input id="edad" 
+                           type="number" name="edad"
+                           min="15" max="90" required="required"/>
+                    <br>
+                   
+                    <br>
+                    <label for= "email">Email</label>
+                    <input id="email" class="cajastexto"
+                           type="email" name="email"
+                           required="required"/>
+                    <br>
+                    <br>
+                    <label for= "nctr_rfc">Rfc</label>
+                    <input id="nctr_rfc" class="cajastexto"
+                           type="text" name="nctr_rfc"
+                           value="" size="13" maxlength="13" required="required"/>
+
+                    <label for= "ncontrol">No. de Control</label>
+                    <input id="ncontrol" class="cajastexto"
+                           type="text" name="ncontrol"
+                           value="" size="8" maxlength="8" required="required"/>
+
+                    <div class="span3 offset5"> <input class="btn" type="submit" name="registrar" value="Registrar"/> </div>
+                    <div class="span9">  </div>
+                    <!--Body content-->
+                </div>
+            </div>
+        </div>
+<!-- Load JS here for greater good =============================-->
+                <script src="../js/jquery-1.8.3.min.js"></script>
+                <script src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+                <script src="../js/jquery.ui.touch-punch.min.js"></script>
+                <script src="../js/bootstrap.min.js"></script>
+                <script src="../js/bootstrap-select.js"></script>
+                <script src="../js/bootstrap-switch.js"></script>
+                <script src="../js/flatui-checkbox.js"></script>
+                <script src="../js/flatui-radio.js"></script>
+                <script src="../js/jquery.tagsinput.js"></script>
+                <script src="../js/jquery.placeholder.js"></script>
+                <script src="../js/jquery.stacktable.js"></script>
+                <script src="../js/application.js"></script>
+    </form>
+
+</body>
+
+</html>
