@@ -29,12 +29,12 @@ body {
 }
 
 body{
-    background-image: url("../../imagenes/background2.jpg");
+    background-image: url("../imagenes/background2.jpg");
     color: #ffffff;
 }
 
 .fondo{
-    background-image: url("../../imagenes/fondo.jpg");
+    background-image: url("../imagenes/fondo.jpg");
 }
 
 div.btn-group:hover ul.dropdown-menu{
