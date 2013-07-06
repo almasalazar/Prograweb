@@ -1,0 +1,131 @@
+<!doctype HTML>
+	<html lang="es">
+		<head>
+			<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+			<link rel="stylesheet" href="../Flat-UI-master/css/flat-ui.css">
+			<link rel="stylesheet" href="../bootstrap/js/bootstrap.css">
+			<script src="../bootstrap/js/jquery.js"></script>
+			<script src="../bootstrap/js/bootstrap.min.js"></script>
+			<script src="../bootstrap/js/bootstrap.js"></script>
+			<script src="../js/bootstrap-select.js"></script>
+			<script src="../js/bootstrap-switch.js"></script>
+			<script src="../js/flatui-checkbox.js"></script>
+			<script src="../js/flatui-radio.js"></script>
+			<script src="../js/jquery.tagsinput.js"></script>
+			<script src="../js/jquery.placeholder.js"></script>
+			<script src="../js/jquery.stacktable.js"></script>
+			<script src="../js/application.js"></script>
+		</head>
+		<body>
+			<div class="navbar navbar-inverse navbar-fixed-top">
+				<div class="navbar-inner">
+					<div class="container">
+						<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="brand" href="index.html">SITEC 2013</a>
+						<div class="nav-collapse collapse">
+							<ul class="nav">
+								<li class="active">
+								<a href="index.html">Inicio</a>
+								</li>
+								<li class="">
+									<a href="_form_usuarios.html">Usuarios</a>
+								</li>
+								<li class="">
+									<a href="_form_actividades.html">Actividades</a>
+								</li>
+								<li class="">
+									<a href="_form_eventos.html">Eventos</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<form>
+				<div class="container">
+				<form action="" method="post">
+				<div class="navbar navbar-inverse navbar-fixed-top">
+				  <div class="navbar-inner">
+					<div class="container">
+					  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					  <a class="brand" href="index.html">SITEC 2013</a>
+					  <div class="nav-collapse collapse">
+						<ul class="nav">
+						  <li class="">
+							<a href="index.html">Inicio</a>
+						  </li>
+						  <li class="">
+							<a href="_form_actividades.html">Actividades</a>
+						  </li>
+						  <li class="">
+							<a href="_form_eventos.html">Eventos</a>
+						  </li>
+						  <li class="">
+							<a href="_form_usuarios.html">Registro</a>
+						  </li>
+						</ul>
+					  </div>
+					</div>
+				  </div>
+				</div>	
+					<div class="container">
+					<div class="row">
+					  <div class="span12 ">
+						<h3 class="demo-panel-title">INGRESA TUS DATOS</h3>
+						<div class="row">
+						  <div class="span4"><label for="apellido_pat"><BR><b>APELLIDO PATERNO </b><BR> </label>
+							<input type="text" value="" placeholder="Soto" required /></div>
+						  <div class="span4"><label for ="apellido_mat"><BR><b>APELLIDO MATERNO </b> <BR> </label><input type="text" value="" id="apellido_mat" name="apellido_mat"
+							placeholder="Rodriguez" required/><BR></div>
+						  <div class="span4"><label for ="nombre"><BR><b>NOMBRE </b> <BR> </label> <input type="text" value="" id="nombre" name="nombre" 
+							placeholder="Hector" required/><BR>
+						</div>
+					  </div>
+					</div>
+					</div>
+					
+					<div class="row">
+					  <div class="span12 ">
+						<div class="row">
+						  <div class="span4"><label for="num"> <BR><BR> <b>EDAD </b>  <BR> </label>  <input type="number" id="num" name="num" min="1" max ="99" placeholder="30" required /><BR></div>
+						  <div class="span4"><label for= "mail"><BR><BR> <b>E-MAIL </b> <BR></label> <input type="email" value="" name"mail" id="mail" placeholder="ejemplo@hotmail.com" required> <BR></div>
+						  <div class="span4"><h3 class="demo-panel-title">SEXO</h3>
+							<label class="radio">
+							<input type="radio" name="optionsRadios" id="optionsRadios1" value="hombre" data-toggle="radio" checked ="">
+							Hombre</label><label class="radio"><input type="radio" name="optionsRadios" id="optionsRadios2" value="mujer" data-toggle="radio" >Mujer</label><br>
+						</div>
+					  </div>
+					</div>
+					</div>
+					
+					<div class="row">
+						<div class="span12 ">
+							<div class="row">
+							<div class="span4"><label for="rfc"><BR> <b>RFC </b> <BR> </label> <input type="text" value"" size="13" maxlenght="13" name="rfc" id="rfc" placeholder="SORH830304FK5" required/><BR></div>
+							<div class="span4"><label for="nctrl"><BR><b># DE CONTROL </b> <BR> </label> <input type="text" value"" size="8" maxlenght="8" name="nctrl" id="nctrl"
+							placeholder="09031136" required/></div>
+							<div class="span4"> <label for="enviar"> <input class="btn btn-success" type="submit" name="enviar" value="Guardar cambios" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+			<footer class="footer">
+			  <div class="container">
+				<p>PAGINA DESARROLLADA DURANTE EL CURSO DE VERANO DE PROGRAMACION WEB</p>
+				<p><a href="index.html" >	SITEC 2013. </p>
+				<ul class="footer-links">
+				  <li><a href="http://www.itc.mx">Instituto Tecnologico de Celaya</a></li>
+				</ul>
+			  </div>
+			</footer>
+		</body>
+	</html>
