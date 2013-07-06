@@ -2,7 +2,7 @@
 	<html lang="es">
 		<head>
 			<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-			<!--link rel="stylesheet" href="../Flat-UI-master/css/flat-ui.css"-->
+			<link rel="stylesheet" href="../Flat-UI-master/css/flat-ui.css">
 			<link rel="stylesheet" href="../bootstrap/js/bootstrap.css">
 			<script src="../bootstrap/js/jquery.js"></script>
 			<script src="../bootstrap/js/bootstrap.min.js"></script>
