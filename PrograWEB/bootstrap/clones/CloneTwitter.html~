@@ -1,0 +1,177 @@
+
+<!--DOCTYPE html-->
+  
+<!--=======-->
+<html>
+	<head>
+		<title>Clon twitter</title>
+		
+		<!-- Bootstrap -->	
+		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	</head>
+	
+	<body background="imagenes/fondoTwitter.jpg">
+		<div>
+		
+		
+		
+			<!--Div1-->
+			 <div> 		 				 
+				 <!-- BegingNavBar -->
+				 <div class="navbar navbar-inverse">
+					  <div class="navbar-inner">
+						<div class="container">
+					 						  
+						  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </a>				 
+						  
+						  <a class="brand" href="#">Twitter Clon</a>			 						  
+						  					 
+						</div>
+					  </div>
+				</div>				 
+				 <!-- EndNavBar -->
+				 
+			 </div>
+			<!--EndDiv1-->
+			 
+			 
+			 
+
+			 <!--Contenedor Principal-->
+			 <div class="row-fluid">
+				 
+				 <!--Div2-->
+				 <div class="span7">	
+				 
+					
+					
+					<!--Div7-->					
+					 <div  style="position:relative; left:200; top:170; height:80; width:470;">
+						<!--Aqui va la Etiqueta del mensaje-->
+						
+						<div class="front-welcome-text" style="color:white">
+						<h1>Bienvenido a Twitter.</h1>
+						<p>Descubre lo que esta pasando ahora, con las personas y grupos que te interesan.</p>
+						</div>
+						
+						<!--Aqui va la Etiqueta del mensaje-->
+					 </div>					 
+					<!--EndDiv7-->					 
+					
+					
+					 
+				 </div>
+				 <!--EndDiv2-->
+				
+								
+				
+				<!--Div3-->
+				 <div class="span5" style="height:600px;">
+				 
+
+						<!--Div4-->
+						 <div class="hero-unit row-fluid" style="position:relative; left:30; top:100; height:60; width:212">
+							
+							 <!--Usuario y Password-->
+							 <form>
+							  <div class="input-prepend">
+								  <span class="add-on">Username</span>
+								  <input class="span8" id="prependedInput" type="text" placeholder="Username">
+								</div>
+								<div class="input-prepend">
+								  <span class="add-on">Password</span>
+								  <input class="span8" id="prependedInput" type="password" placeholder="Password">
+								</div>
+								<div>
+								<center>
+								<button type="submit" class="submit btn primary-btn flex-table-btn js-submit" tabindex="4">
+								Iniciar sesion
+								</button>
+								</center>
+								</div>
+								
+							</form>
+							 <!--Usuario y Password-->
+							 
+						 </div>
+						<!--EndDiv4-->
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+
+					 
+					 
+					 
+					 
+						<!--Div5-->
+						<div class="hero-unit" style="position:relative; left:30; top:110; height:100; width:212">
+							<!--Formulario de Registro-->
+							
+							 <form>							
+							  <div class="input-prepend">
+								  <span class="add-on">UserName</span>
+								  <input class="span8" id="prependedInput" type="text" placeholder="UserName">
+								</div>
+								<div class="input-prepend">
+								  <span class="add-on">Correo. </span>
+								  <input class="span11" id="prependedInput" type="text" placeholder="Email">
+								</div>
+								<div class="input-prepend">
+								  <span class="add-on">Password</span>
+								  <input class="span8" id="prependedInput" type="password" placeholder="password">
+								</div>
+								
+								<div>
+								<center>
+								<button type="submit" class="submit btn primary-btn flex-table-btn js-submit" tabindex="4">
+								Registrar
+								</button>
+								
+								</center>
+								</div>
+								
+							</form>
+							<!--Fin Formulario de Registro-->
+						</div>
+						<!--EndDiv5-->
+					 		
+							
+							
+							
+				 </div>
+				 <!--EndDiv3-->
+				 
+				 
+			 </div>
+			 <!--End Contenedor Principal-->
+
+			 
+			 
+			 
+			 
+			 <!--Div6-->
+			 <div class="row-fluid">
+				 
+				 <!--Footer-->
+				 <div>
+				 					
+					
+				 </div>
+				 <!--EndFooter-->
+				
+			 </div>			 
+			 <!--EndDiv6-->
+		  
+		  
+		</div>
+		
+	</body>
+</html>
