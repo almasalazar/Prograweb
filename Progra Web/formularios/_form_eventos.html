@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<title>Eventos</title>
+		 <meta charset="utf-8">
+    <meta name="description" content="Artículo en GenbetaDev sobre Bootstrap 2.0">
+    <meta name="author" content="Ricardo Borillo">
+    <!—[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]—>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body { padding-top: 60px; }
+    </style>
+    <link href="../bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    </head>
+    <body><center>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+				<div class="navbar-inner">
+					<div class="container">
+						<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="brand" href="index.html">SITEC 2013</a>
+						<div class="nav-collapse collapse">
+							<ul class="nav">
+								<li class="active">
+								<a href="index.html">Inicio</a>
+								</li>
+								<li class="">
+									<a href="_form_usuarios.html">Usuarios</a>
+								</li>
+								<li class="">
+									<a href="_form_actividades.html">Actividades</a>
+								</li>
+								<li class="">
+									<a href="_form_eventos.html">Eventos</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+        <h1>Inserta Datos Del Evento</h1>
+		
+        <form action="" method="post" class="well"><br>
+			<label for="nombre">Nombre</label>
+			<input id="nombre" type="text" name="nombre" value="" size="20" maxlength="50" required="text"><br>
+			<label for="contacto">Contacto</label>
+			<textarea id="contacto" type="textarea" name="contacto" value="" cols="20" rows="2" required="textarea">
+			</textarea><br>
+			<label for="fecha">Fecha del Evento</label>
+			<textarea id="fecha" type="textarea" name="fecha" value="" cols="20" rows="2" required="textarea">
+			</textarea><br>
+			<label for="lugar">Lugar del Evento</label>
+			<textarea id="lugar" type="textarea" name="lugar" value="" cols="20" rows="2" required="textarea">
+			</textarea><br>
+			<label for="informacion">Informacion</label>
+			<textarea id="informacion" type="textarea" name="informacion" value="" cols="20" rows="2" required="textarea">
+			</textarea><br>
+			<label for="inicio">Fecha de Inicio</label>
+			<input id="inicio" type="datetime-local" name="inicio" value="" required="datetime"><br>
+			<label for="fin">Fecha de Fin</label>
+			<input id="fin" type="datetime-local" name="fin" value="" required="datetime"><br>
+            <input class="btn btn-success" id="enviar" type="submit" name="enviar" value="Guardar Registro" />
+            <input class="btn btn-success" id="limpiar" type="reset" name="limpiar" value="Borrar Formulario"/>
+        </form>
+		</center>
+    </body>
+</html>
