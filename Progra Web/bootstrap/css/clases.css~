@@ -29,7 +29,7 @@ body {
 }
 
 body{
-    background-image: url("../../imagenes/background2.jpg");
+    background-image: url("../../imagenes/background.jpg");
     color: #ffffff;
 }
 
