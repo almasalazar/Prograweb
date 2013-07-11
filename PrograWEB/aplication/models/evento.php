@@ -8,24 +8,24 @@
 	
 	
 	public function  get_id_evento(){
-                    return this->$id_evento;
+                    return $this->$id_evento;
 	}
 	
 	public function get_nombre(){
-                      return this->$nombre;
+                      return $this->$nombre;
 	}
 	public function  get_descripcion(){
-                      return this->$descripcion;
+                      return $this->$descripcion;
 	}
 	public function get_fecha_ini(){
-                    return this->$fecha_ini;
+                    return $this->$fecha_ini;
 	}
 	
 	public function get_fecha_fin(){
-                      return this->$fecha_fin;
+                      return $this->$fecha_fin;
 	}
 	public function  get_id_lugar(){
-                      return this->$id_lugar;
+                      return $this->$id_lugar;
 	}
 	
 	
