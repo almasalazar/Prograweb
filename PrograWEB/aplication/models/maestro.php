@@ -1,6 +1,7 @@
 
 
 <?php
+class Maestro{
 	private $id_maestro;
 	private $rfc;
 	private $id_persona;
@@ -27,5 +28,6 @@
 	public function set_id_persona($valor){
                        $this->$id_persona=$valor;
 	}
+}
 ?>
 

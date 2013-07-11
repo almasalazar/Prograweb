@@ -5,7 +5,7 @@
 
 // *Modelado
 <?php
-
+class Auxiliar_actividad{
 	// *Variables Globales Privadas
 
 	private $id_actividad;
@@ -47,6 +47,6 @@
 	}
 	//------------------------------------------
 
-
+}
 ?>
 //-------------------------------------------------

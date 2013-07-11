@@ -6,7 +6,7 @@
 
 // -> *Modelado
 <?php
-
+class Alumno{
 
 	// -> *Variables Globales Privadas
 
@@ -48,7 +48,7 @@
 	}
 	//----------------------------------------------
 
-
+}
 ?>
 
 

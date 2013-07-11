@@ -6,6 +6,7 @@
 
 // -> *Variables Globales Privadas
 <?php
+class Presentador{
 	private $id_presentador;
 	private $rfc_clave;
 	private $id_persona;
@@ -40,6 +41,7 @@
 	public function set_id_persona( $valor ){
 		$this->id_persona = $valor;
 	}
+}
 ?>
 
 

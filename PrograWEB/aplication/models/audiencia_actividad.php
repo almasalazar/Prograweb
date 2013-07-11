@@ -1,5 +1,6 @@
 
 <?php
+class Audiencia_actividad{
 	private $id_actividad;
 	private $id_persona;
 	
@@ -19,4 +20,5 @@
 	public function set_id_persona($valor){
                        $this->$id_persona=$valor;
 	}
+}
 ?>

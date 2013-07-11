@@ -1,4 +1,5 @@
 <?php
+class Evento{
 	private $id_evento;
 	private $nombre;
 	private $descripcion;
@@ -50,4 +51,5 @@
 	public function set_lugar($valor){
                        $this->$lugar=$valor;
 	}
+}
 ?>

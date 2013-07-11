@@ -6,6 +6,7 @@
 
 // -> *Variables Globales Privadas
 <?php
+class Persona{
 	private $id_persona;
 	private $nombre;
 	private $apellido_pat;
@@ -83,5 +84,6 @@
         }
 
 //----------------------------------------------
+}
 ?>
 

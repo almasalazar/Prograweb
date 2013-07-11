@@ -6,6 +6,7 @@
 
 // -> *Variables Globales Privadas
 <?php
+class Presentador_actividad{
 	private $id_actividad;
 	private $id_presentador;
 	
@@ -33,6 +34,7 @@
         }
 
 //----------------------------------------------
+}
 ?>
 //------------------------------------------------------
 

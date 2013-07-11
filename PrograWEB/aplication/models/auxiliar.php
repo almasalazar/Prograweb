@@ -1,4 +1,5 @@
 <?php
+class Auxiliar{
 	private $id_asistente;
 	private $id_persona;
 	
@@ -17,4 +18,5 @@
 	public function set_id_asistente($valor){
     this->id_asistente=$valor
 	}
+}
 ?>

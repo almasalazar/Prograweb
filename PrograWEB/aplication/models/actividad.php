@@ -4,7 +4,7 @@
 
 
 <?php
-
+class Actividad{
 	// *Variables Globales Privadas
 	private	$id_actividad;
 	private $nombre;
@@ -105,5 +105,5 @@
 		$this->$evento = $evento;
 	}
 	//----------------------------------------------------------
-
+}
 ?>
