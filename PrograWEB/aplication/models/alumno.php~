@@ -4,18 +4,20 @@
 
 
 
-// -> *Modelado
+// -> *Variables Globales Privadas
 <?php
-
-
-	// -> *Variables Globales Privadas
-
 	private $id_alumno;
 	private $id_persona;
 	private $No_Ctrl;
+?>
+//------------------------------------------------------
 
-	//------------------------------------------------------
 
+
+
+
+// -> *Modelado
+<?php
 
 
 	// *Obtener Valores
