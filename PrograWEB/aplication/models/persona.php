@@ -1,0 +1,87 @@
+/**********************************************
+          Modelado TablaPersona PHP
+***********************************************/
+
+
+
+// -> *Variables Globales Privadas
+<?php
+	private $id_persona;
+	private $nombre;
+	private $apellido_pat;
+	private $apellido_mat;
+	private $email;
+	private $genero;
+	private $edad;
+	private $pass;
+	
+// -> *Modelado
+	
+		// *Obtener Valores
+	public function get_id_persona(){
+		$return $this->$id_persona;
+	}
+
+	public function get_nombre(){
+		$return $this->$nombre;
+	}
+	
+	public function get_apellido_pat(){
+		$return $this->$id_apellido_pat;
+	}
+	
+	public function get_id_apellido_mat(){
+		$return $this->$id_apellido_mat;
+	}
+	
+	public function get_email(){
+		$return $this->$id_email;
+	}
+	
+	public function get_genero(){
+		$return $this->$genero;
+	}
+	
+	public function get_edad(){
+		$return $this->$edad;
+	}
+	
+	public function get_pass(){
+		$return $this->$id_pass;
+	}
+
+//----------------------------------------------
+
+
+	// *Asignar Valores
+	public function set_id_persona( $valor ){
+                $this->$id_persona = $valor;
+        }
+		
+	public function set_nombre( $valor ){
+                $this->$nombre = $valor;
+        }	
+
+    public function set_apellido_pat( $valor ){
+                $this->$apellido_mat = $valor;
+        }
+		
+	public function set_email( $valor ){
+                $this->$email = $valor;
+        }
+		
+	public function set_genero( $valor ){
+                $this->$genero = $valor;
+        }
+		
+	public function set_edad( $valor ){
+                $this->$edad = $valor;
+        }
+		
+	public function set_pass( $valor ){
+                $this->$pass = $valor;
+        }
+
+//----------------------------------------------
+?>
+
