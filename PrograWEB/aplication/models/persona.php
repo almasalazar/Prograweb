@@ -73,6 +73,24 @@ class Persona{
 	public function set_pass( $valor ){
                 $this->pass = $valor;
         }
+        
+        
+        public function insertar(){
+            $con=new conexion();
+            $db = $con->conectar();
+            $id_persona=  $this->id_persona();
+            $nombre=  $this->nombre();
+            $apellido_pat=  $this->apellido_pat();
+            $apellido_mat=  $this->apellido_mat();
+            $email=  $this->email();
+            $genero=  $this->genero();
+            $edad=  $this->edad();
+            $pass=  $this->pass();
+            $sql="this into Persona (id_persona, nombre, apellido_pat, apellido_mat, 
+                email, genero,edad, pass)values ('$id_persona','$nombre','$apellido_pat','$apellido_mat','$email','$genero','$edad','$pass')";
+            $rs = $db->Execute($sql);
+            return $rs;
+        }
 }
 ?>
 
